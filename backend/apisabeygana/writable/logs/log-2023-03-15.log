@@ -1,0 +1,464 @@
+ERROR - 2023-03-15 09:10:32 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_saldo&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_saldo&quot; (&quot;sal_double_saldo&quot;) VALUES ('10')
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 09:11:38 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_saldo&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_saldo&quot; (&quot;sal_double_saldo&quot;) VALUES ('10')
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 09:11:50 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_saldo&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_saldo&quot; (&quot;sal_double_saldo&quot;) VALUES (2.222)
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 09:14:29 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_saldo&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_saldo&quot; (&quot;sal_double_saldo&quot;) VALUES (2.222)
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 09:19:41 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_saldo&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_saldo&quot; (&quot;sal_double_saldo&quot;) VALUES (2.222)
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 09:36:34 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;sal_txt_fechaactualizacion&quot; of relation &quot;dcu_saldo&quot; does not exist
+LINE 1: ...&quot;sal_double_saldousado&quot;, &quot;sal_txt_fecharegistro&quot;, &quot;sal_txt_f...
+                                                             ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Saldo.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Saldo->recarga()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Saldo))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:36:33 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:39:54 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:49:40 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:51:13 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:52:10 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_softwareafiliado&quot; (&quot;sof_txt_nombre&quot;, &quot;sof_t...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:52:44 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_softwareafiliado&quot; (&quot;sof_txt_nombre&quot;, &quot;sof_t...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 10:54:40 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->create()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:08:37 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:13:16 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:28:33 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:28:50 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:29:00 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:29:28 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:30:39 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:37:18 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:38:55 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:39:07 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 11:41:47 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;digitalapi.dcu_softwareafiliado&quot; does not exist
+LINE 1: INSERT INTO &quot;digitalapi&quot;.&quot;dcu_softwareafiliado&quot; (&quot;sof_txt_no...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "di...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "di...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "di...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "di...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\Softwareafiliado.php(27): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\Softwareafiliado->registrar()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Softwareafiliado))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-03-15 12:11:21 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 3: ... bin_txt_fecharegistro &gt;= NOW() - INTERVAL '24 hours' limit 
+                                                                       ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'SELECT count(*)...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\User.php(41): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\User->main()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\User))
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-15 12:29:09 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;dcu_usuario&quot; does not exist
+LINE 1: INSERT INTO &quot;dcu_usuario&quot; (&quot;use_txt_nombre&quot;, &quot;use_txt_apelli...
+                    ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'INSERT INTO "dc...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "dc...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "dc...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "dc...', Array, false)
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\User.php(28): CodeIgniter\Model->insert(Object(stdClass))
+#9 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\User->register()
+#10 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\User))
+#11 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}

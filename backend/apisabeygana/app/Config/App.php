@@ -7,6 +7,12 @@ use CodeIgniter\Session\Handlers\FileHandler;
 
 class App extends BaseConfig
 {
+
+    public $middleware = [
+        // ...
+        \CodeIgniter\Middleware\CorpsMiddleware::class
+    ];
+    
     /**
      * --------------------------------------------------------------------------
      * Base Site URL
@@ -463,4 +469,6 @@ class App extends BaseConfig
      * @var bool
      */
     public $CSPEnabled = false;
+    
+    
 }

@@ -37,6 +37,29 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+
+//api
+$routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
+    
+
+    
+    $routes->get('user', 'User::index');/* muestra todos los usuarios */
+    $routes->get('main', 'User::main'); /* sumatoria para las estadisticas del main */
+    $routes->post('user/register', 'User::register');
+    
+    $routes->get('softwareafiliado', 'Softwareafiliado::index');/* muestra todos los software afiliados */
+    $routes->post('softwareafiliado/registrar', 'Softwareafiliado::registrar');/* registrar software afiliados */
+    
+    $routes->get('serviciodigital', 'Serviciodigital::index');/* Muestra todos los servicios digitales */
+    
+    $routes->get('saldo', 'Saldo::index'); /* muestra todos los movimientos de los saldos */
+    $routes->post('saldo/recarga', 'Saldo::recarga'); /*Recarga de saldo*/
+    
+    $routes->get('operaciones', 'Operaciones::index');/* muestra todos los tipos de operaciones */
+
+    $routes->get('bitacora', 'Bitacora::index');/* muestra todos los campos registrados en la bitacora como eventos del sistema */
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

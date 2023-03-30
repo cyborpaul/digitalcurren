@@ -1,0 +1,14 @@
+ERROR - 2023-03-14 09:36:14 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 3: ... bin_txt_fecharegistro &gt;= NOW() - INTERVAL '24 hours' limit 
+                                                                       ^ in C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php:140
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\Postgre\Connection.php(140): pg_query(Object(PgSql\Connection), 'SELECT count(*)...')
+#2 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(666): CodeIgniter\Database\Postgre\Connection->execute('SELECT count(*)...')
+#3 C:\xampp\htdocs\full\backend\apisabeygana\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#4 C:\xampp\htdocs\full\backend\apisabeygana\app\Controllers\API\User.php(41): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...')
+#5 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(927): App\Controllers\API\User->main()
+#6 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\User))
+#7 C:\xampp\htdocs\full\backend\apisabeygana\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\full\backend\apisabeygana\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,5 +1,12 @@
 # Disable directory browsing
 Options All -Indexes
+Header always set Access-Control-Allow-Origin *
+Header always set Access-Control-Allow-Headers " Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method,Authorization"
+Header always set Access-Control-Expose-Headers "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method,Authorization,Content-Security-Policy, Location"
+Header always set Access-Control-Allow-Methods "GET,POST,PUT,PATCH,OPTIONS,DELETE"
+Header always set Access-Control-Request-Method "GET,POST,PUT,PATCH,OPTIONS,DELETE"
+Header always set Access-Control-Allow-Credentials true
+Header always set Access-Control-Max-Age "3600"
 
 # ----------------------------------------------------------------------
 # Rewrite engine
